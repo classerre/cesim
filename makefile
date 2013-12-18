@@ -1,7 +1,7 @@
 #all:	presentation.pdf
 #	mupdf presentation.pdf
 
-report.pdf:	report.tex
+report.pdf:	report.tex examenPerformance.tex
 	pdflatex report.tex
 	pdflatex report.tex
 
