@@ -1,6 +1,3 @@
-all:	report.pdf
-	mupdf report.pdf
-
 SRC=$(wildcard *.tex) 
 
 report.pdf:	report.tex $(SRC)
