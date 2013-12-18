@@ -1,5 +1,5 @@
-#all:	presentation.pdf
-#	mupdf presentation.pdf
+all:	report.pdf
+	mupdf report.pdf
 
 report.pdf:	report.tex
 	pdflatex report.tex
