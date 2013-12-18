@@ -1,6 +1,3 @@
-#all:	presentation.pdf
-#	mupdf presentation.pdf
-
 SRC=$(wildcard *.tex) 
 
 report.pdf:	report.tex $(SRC)

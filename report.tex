@@ -33,6 +33,7 @@
 %\def\secretary{ahavlicek}
 \def\others{lhofer, tlambert, classerre, lleclech}
 
+\graphicspath{{graphics}{data/}}
 
 \begin{document}
 %%%%%%%%%%%%%%%% Header %%%%%%%%%%%%%%%%
@@ -61,6 +62,8 @@
 %%%%%%%%%%%%%%%% Main part %%%%%%%%%%%%%%%%
 
 \section{ArchFlyer}
+\includegraphics[width=\linewidth]{flyer}
+\includegraphics[width=\linewidth]{flyerVerso}
 
 \section{Introduction}
 \subsection{Membres de l'équipe}
@@ -75,6 +78,7 @@
 \subsection{Lettre aux Actionnaires}
 \input{lettreActionnaires.tex}
 \subsection{Présentation de ArchMobile}
+\input{presentationArchMobile}
 
 \section{PARTIE 1 : EXAMEN DE LA STRATÉGIE}
 \begin{itemize}
@@ -84,11 +88,12 @@
 \item En matière de recherche et développement
 \item Sur nes parts de marché
 \item Sur nos investissements
+
+\input{examen_strategie}
 \end{itemize}
 
 \section{PARTIE 2 : EXAMEN DE LA PERFORMANCE}
-Graphiques, commentaires basés sur indicateurs. Description des performances 
-d'exploitation et financière sur l'ensemble du challenge.
+\input{examenPerformance}
 
 \section{CONCLUSION : ANALYSE DE LA COMPÉTITION}
 %%%%%%%%%%%%%%%% End main %%%%%%%%%%%%%%%%%
