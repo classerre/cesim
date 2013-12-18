@@ -1,5 +1,5 @@
-#all:	presentation.pdf
-#	mupdf presentation.pdf
+all:	report.pdf
+	mupdf report.pdf
 
 SRC=$(wildcard *.tex) 
 
