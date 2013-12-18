@@ -1,7 +1,9 @@
 all:	report.pdf
 	mupdf report.pdf
 
-report.pdf:	report.tex
+SRC=$(wildcard *.tex) 
+
+report.pdf:	report.tex $(SRC)
 	pdflatex report.tex
 	pdflatex report.tex
 
